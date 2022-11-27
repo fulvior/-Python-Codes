@@ -1,0 +1,14 @@
+def sum_list(list, size):
+    if (size==0):
+        return 0
+    else:
+        return l[size-1] + sum_list(list, size-1)
+l = []
+n = int(input("Inserrt the length of the list: "))
+for i in range(0,n):
+    ele = int(input())
+    l.append(ele)
+    s += i
+
+print("The list is:", l)
+print("The sum of the elements is : ", sum_list(l,n))
