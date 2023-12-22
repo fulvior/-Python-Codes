@@ -21,13 +21,6 @@ for i in range(len(vector)):
     v = v + vector[i]**2
     
 v = math.sqrt(v)
-print("la norma del vettore inserito è: ", v)
-
-    
-
-
-# In[ ]:
-
-
+print("the norm of the vector is: ", v)
 
 
